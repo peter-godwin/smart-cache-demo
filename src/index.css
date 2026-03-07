@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #000;
+}
+
+.app {
+  min-height: 100vh;
+  background: #000;
+  color: #eee;
+  padding: 20px;
+  font-family: monospace;
+}
+
+h1 {
+  color: #4ade80;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.stat {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 100px;
+}
+
+.stat-label {
+  color: #888;
+  font-size: 12px;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  background: #333;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+button:hover {
+  background: #444;
+}
+
+.logs {
+  background: #1a1a1a;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+.log {
+  padding: 5px 0;
+  border-bottom: 1px solid #333;
+}
+
+.hit {
+  color: #4ade80;
+}
+
+.miss {
+  color: #f87171;
+}
+
+.set {
+  color: #60a5fa;
+}
+
+.exp {
+  color: #fbbf24;
+}
+
+.controls {
+  margin: 20px 0;
+}
